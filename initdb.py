@@ -1,4 +1,3 @@
-from db import belly_button_biodiversity, bellybutton
+from Belly_Button_Biodiversity.app import db
 
-belly_button_biodiversity.create_all();
-bellybutton.create_all();
+db.create_all();
