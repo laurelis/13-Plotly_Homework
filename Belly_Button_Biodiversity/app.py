@@ -26,6 +26,8 @@ Base = automap_base()
 # reflect the tables
 Base.prepare(db.engine, reflect=True)
 
+print(db.engine.table_names())
+
 # Save references to each table
 Samples_Metadata = Base.classes.sample_metadata
 Samples = Base.classes.samples
