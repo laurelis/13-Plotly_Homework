@@ -98,7 +98,7 @@ function buildGauge(WFREQ) {
       zeroline:false,
       showticklabels:false,
       showgrid: false,
-      range: [0, 1]},
+      range: [-1, 1]},
   };
 
   Plotly.newPlot('gauge', data, layout);
